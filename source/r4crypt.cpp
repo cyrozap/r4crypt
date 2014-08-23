@@ -46,7 +46,7 @@ unsigned char addrCypher (unsigned char val, int addr)
 
 void usage (const char* progName)
 {
-	printf ("Usage: %s [-d|-e] <in_file> <out_file>\n");
+	printf ("Usage: %s [-d|-e] <in_file> <out_file>\n", progName);
 }
 
 int main(int argc, char* argv[])
